@@ -1,0 +1,77 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstraction\Storage\" />
+    <Folder Include="CQRS\Address\Command\Add\" />
+    <Folder Include="CQRS\Address\Command\Delete\" />
+    <Folder Include="CQRS\Address\Query\GetAll\" />
+    <Folder Include="CQRS\Address\Query\GetById\" />
+    <Folder Include="CQRS\Address\Command\" />
+    <Folder Include="CQRS\Address\Command\Update\" />
+    <Folder Include="CQRS\Address\Query\" />
+    <Folder Include="CQRS\Category\Command\Add\" />
+    <Folder Include="CQRS\Category\Query\GetAll\" />
+    <Folder Include="CQRS\Category\Query\GetById\" />
+    <Folder Include="CQRS\Category\Command\" />
+    <Folder Include="CQRS\Category\Command\Update\" />
+    <Folder Include="CQRS\Category\Query\" />
+    <Folder Include="CQRS\Customer\Command\Add\" />
+    <Folder Include="CQRS\Customer\Query\GetAll\" />
+    <Folder Include="CQRS\Customer\Query\GetById\" />
+    <Folder Include="CQRS\Customer\Command\" />
+    <Folder Include="CQRS\Customer\Command\Update\" />
+    <Folder Include="CQRS\Customer\Query\" />
+    <Folder Include="CQRS\Employee\Command\Add\" />
+    <Folder Include="CQRS\Employee\Command\Delete\" />
+    <Folder Include="CQRS\Employee\Query\GetAll\" />
+    <Folder Include="CQRS\Employee\Query\GetById\" />
+    <Folder Include="CQRS\Employee\Command\" />
+    <Folder Include="CQRS\Employee\Command\Update\" />
+    <Folder Include="CQRS\Employee\Query\" />
+    <Folder Include="CQRS\Offer\Command\Add\" />
+    <Folder Include="CQRS\Offer\Command\Delete\" />
+    <Folder Include="CQRS\Offer\Query\GetAll\" />
+    <Folder Include="CQRS\Offer\Query\GetById\" />
+    <Folder Include="CQRS\Offer\Command\" />
+    <Folder Include="CQRS\Offer\Command\Update\" />
+    <Folder Include="CQRS\Offer\Query\" />
+    <Folder Include="CQRS\Order\Command\Add\" />
+    <Folder Include="CQRS\Order\Command\AddRange\" />
+    <Folder Include="CQRS\Order\Query\GetAll\" />
+    <Folder Include="CQRS\Order\Query\GetById\" />
+    <Folder Include="CQRS\Order\Command\" />
+    <Folder Include="CQRS\Order\Command\Update\" />
+    <Folder Include="CQRS\Order\Query\" />
+    <Folder Include="CQRS\ProductDetail\Command\Add\" />
+    <Folder Include="CQRS\ProductDetail\Query\GetAll\" />
+    <Folder Include="CQRS\ProductDetail\Query\GetById\" />
+    <Folder Include="CQRS\ProductDetail\Command\Delete\" />
+    <Folder Include="CQRS\ProductDetail\Command\" />
+    <Folder Include="CQRS\ProductDetail\Command\Update\" />
+    <Folder Include="CQRS\ProductDetail\Query\" />
+    <Folder Include="CQRS\Product\Command\Add\" />
+    <Folder Include="CQRS\Product\Command\Delete\" />
+    <Folder Include="CQRS\Product\Query\GetAll\" />
+    <Folder Include="CQRS\Product\Query\GetById\" />
+    <Folder Include="CQRS\Product\Command\" />
+    <Folder Include="CQRS\Product\Command\Update\" />
+    <Folder Include="CQRS\Product\Query\" />
+    <Folder Include="CQRS\Size\Command\Add\" />
+    <Folder Include="CQRS\Size\Query\GetAll\" />
+    <Folder Include="CQRS\Size\Query\GetById\" />
+    <Folder Include="CQRS\Size\Command\" />
+    <Folder Include="CQRS\Size\Command\Update\" />
+    <Folder Include="CQRS\Size\Query\" />
+  </ItemGroup>
+
+</Project>
