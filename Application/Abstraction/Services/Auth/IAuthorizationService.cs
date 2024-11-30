@@ -1,6 +1,6 @@
-﻿using Application.Core;
-using Application.DTOs.Authorization;
+﻿using Application.DTOs.Authorization;
 using Application.DTOs.Token;
+using Application.UnitOfWork.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;

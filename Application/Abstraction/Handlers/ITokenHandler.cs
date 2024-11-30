@@ -1,4 +1,6 @@
-﻿using Application.DTOs.Token;
+﻿
+using Application.DTOs.Token;
+using Application.UnitOfWork.Core;
 using Domain.Entities.Identity;
 using System;
 using System.Collections.Generic;
@@ -9,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Application.Abstraction.Handlers
 {
-    public interface ITokenHandler
+    public interface ITokenHandler:IInjectable
     {
         public TokenDto CreateToken(int minutes,AppUser appUser);
         public string CreateRefreshToken();

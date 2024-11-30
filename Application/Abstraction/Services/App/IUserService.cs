@@ -1,5 +1,5 @@
-﻿using Application.Core;
-using Application.DTOs.User;
+﻿using Application.DTOs.User;
+using Application.UnitOfWork.Core;
 using Domain.Results.Common;
 using System;
 using System.Collections.Generic;
